@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Anime</title>
+</head>
+<body>
+    <div class="loader pl1" id="loader">
+        <div class="pl1__a"></div>
+        <div class="pl1__b"></div>
+        <div class="pl1__c"></div>
+    </div>
+    <h1 id="an">Anime Quizy</h1><br>
+    <a href='https://www.freepik.com/vectors/character'><img src="./images/anime_banner.png" alt="anime image" style="width: 100%;height: auto;"></a>
+    <div class="paper"></div>
+    
+    <div class="row1">
+        <a class="btn btn1" onclick="showScore()">Submit</a>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-cont" id="modal-cont">
+            <span class="tick"><i class="far fa-check-circle"></i></span>
+            <h1>Congratulations your score is</h1>
+            <h1 id="score" style="color: #0d9d1e;"></h1>
+        </div>
+    </div>
+    
+    <script src="./js/script_anime.js"></script>
+</body>
+</html>
